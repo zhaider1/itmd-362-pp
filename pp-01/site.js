@@ -16,7 +16,10 @@ $.noConflict();
       $('#form-get').append('<li>ERROR, You must be 18 to submit this form</li>'
       );
     }
-    if (age >= 18) {
+    if (age==18) {
+      $('#form-get').append('<li> Happy Birthday! Also your form has been submitted!</li>')
+    }
+    if (age > 18) {
       $('#form-get').append('<li>Form submission complete</li>'
       );
     }
