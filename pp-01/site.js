@@ -10,6 +10,7 @@ $.noConflict();
   var age = currentDate.getFullYear() - dob.getFullYear();
   $('#form-get').on('submit',
   function(e) {
+    e.preventDefault();
     if(age < 18) {
       $('#form-get').append('<li>ERROR, You must be 18 to submit this form</li>'
       );
