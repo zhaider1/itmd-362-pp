@@ -7,9 +7,7 @@ $.noConflict();
 (function($) {
   var dob = new Date(document.getElementById('birthday').value);
   var currentDate = new Date();
-  var  a = dob.getFullYear();
-  var  b = today.getFullYear();
-  var age = b - a;
+  var age = currentDate.getFullYear() - dob.getFullYear();
   $('#form-get').on('submit',
   function(e) {
     if(age < 18) {
