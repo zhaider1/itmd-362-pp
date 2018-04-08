@@ -27,11 +27,14 @@ Small commits to your Production Problems repository that include:
 2) an explanation of three different points of guidance from your chosen guidelines (point to the
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
-* HCI Guidline One (URL):
-* How you implemented it in your sketch:
 
-* HCI Guidline Two (URL):
-* How you implemented it in your sketch:
+* HCI Guidline One (URL):https://material.io/guidelines/components/text-fields.html
+* How you implemented it in your sketch: This one is pretty obvious. Having text boxes for password and username is a given. The guidelines say they should include a label and the text should be legible. Having login info inside a textbox that gives enough room is necessary for my design.
 
-* HCI Guidline Three (URL):
-* How you implemented it in your sketch:
+
+* HCI Guidline Two (URL):https://material.io/guidelines/patterns/navigation-drawer.html
+* How you implemented it in your sketch:I put this in the new myIIT because the old website has it arranged at the top but that doesn't look nice or work as well as having a bar for popular tabs in the left. Android uses this technique a lot
+
+
+* HCI Guidline Three (URL):https://material.io/guidelines/layout/structure.html#structure-app-bar
+* How you implemented it in your sketch: I implemented it in the desktop version because on the myiit website everything is really confusing with where everything is, so with the nav tab in the top left it will be easier to see the overall structure of the website
